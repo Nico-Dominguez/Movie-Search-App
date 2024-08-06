@@ -19,7 +19,7 @@ const Watchlist = () => {
 
   return (
     <div>
-      <div className="h-[208px] bg-slate-950 text-white flex items-center p-3 justify-evenly bg-[url(../../public/hero-bg.png)] object-cover">
+      <div className="h-[208px] bg-slate-950 text-white flex items-center p-3 justify-evenly bg-[url(/hero-bg.png)] object-cover">
         <h1 className="text-3xl font-extrabold">My Watchlist</h1>
         <Link to={".."} className="text-xl font-semibold">
           Search for movies
